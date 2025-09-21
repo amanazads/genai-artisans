@@ -1,14 +1,15 @@
-# Ensure modern build tools (prevents version/key errors in newer Python)
+# Build tools (prevent pip/setuptools errors)
 setuptools>=70.0.0
 wheel
 
+# FastAPI stack
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
 pymongo==4.6.0
 pydantic==2.5.0
 python-dotenv==1.0.0
-Pillow==10.1.0
+Pillow==10.1.0   # Works fine with Python 3.11
 
 # Google Cloud
 google-cloud-aiplatform==1.38.1
